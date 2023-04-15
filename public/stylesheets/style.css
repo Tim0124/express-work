@@ -1,0 +1,67 @@
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  align-items: center;
+  line-height: 30px;
+}
+
+body {
+  background-color: #f8f7fc;
+  font-family: "PingFang TC";
+}
+
+header {
+  padding:10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.host {
+  grid-column: 1/2;
+  height: 30px;
+  width:100px;
+  background-color: #ccc;
+  border-radius: 5px;
+  text-align: center;
+  color:black;
+  align-items: center;
+  box-shadow: 1px 3px 3px #a6a6a6;
+}
+
+.tool {
+  grid-column: 3/4;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+
+.item {
+  height: 30px;
+  width: 100px;
+  background-color: #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 3px 3px #a6a6a6;
+}
+
+h1 {
+  padding: 15px;
+}
+
+a {
+  display: block;
+  height: 30px;
+  width: 100px;
+}
+
